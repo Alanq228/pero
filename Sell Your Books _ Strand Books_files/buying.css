@@ -1,0 +1,155 @@
+.sell {
+  display: block;
+  margin: 0;
+  width: 100%;
+}
+
+.page-content .sell__contact {
+  display: block;
+  width: 100%;
+  margin: 30px 0;
+  font-family: "StrandGothicBold", sans-serif;
+  color: #bf2e1a;
+}
+
+.page-content .sell__contact-headline {
+  font-size: 21px;
+  text-transform: uppercase;
+}
+
+.page-content .sell__contact-desc {
+  font-size: 18px;
+  color: #333;
+  font-family: "Arial", sans-serif;
+}
+
+.page-content .sell__headline {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  background-size: cover;
+}
+
+.page-content .sell__headline-image {
+  display: block;
+  width: 100%;
+  max-width: 10000px;
+}
+
+.page-content .sell__headline-image.mobile {
+  display: none;
+}
+
+.page-content .sell__headline-text {
+  color: #fff;
+  font-size: 42px;
+  line-height: 28px;
+  position: absolute;
+  top: 8%;
+  left: 4%;
+  opacity: 0;
+}
+
+.page-content .sell__headline-sub {
+  display: block;
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", sans-serif;
+  text-transform: none;
+  font-size: 21px;
+  font-style: italic;
+}
+
+.page-content .sell__index {
+  padding: 15px;
+  background-color: #efefef;
+}
+
+.page-content .sell__index-headline {
+  color: #333;
+  font-family: "StrandGothicBold", sans-serif;
+  font-size: 21px;
+}
+
+.page-content .sell__index-link {
+  display: block;
+  color: #bf2e1a;
+  font-family: "Arial", sans-serif;
+  margin: 5px 0;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.page-content .sell__section {
+  display: block;
+  width: 100%;
+  margin: 0;
+  padding: 50px 0;
+}
+
+.page-content .sell__section-headline {
+  display: block;
+  width: 100%;
+  margin: 0 0 20px 0;
+  padding: 0 0 8px 0;
+  border-bottom: 2px solid #bf2e1a;
+  color: #333;
+  font-family: "StrandGothicBold", sans-serif;
+  font-size: 21px;
+}
+
+.page-content .sell__section-list {
+  font-family: "Libre Baskerville";
+  font-size: 14px;
+  color: #111;
+}
+
+.page-content .sell__section-list li {
+  margin: 5px 0;
+}
+
+.page-content .sell__section-para {
+  font-family: "Libre Baskerville", serif;
+  color: #111;
+  font-size: 14px;
+  line-height: 26px;
+  margin: 20px 0;
+  padding: 0;
+}
+
+.page-content .sell__strong {
+  font-weight: 800;
+}
+
+@media screen and (max-width: 767px) {
+
+
+  .page-content .sell__headline-text {
+    font-size: 36px;
+  }
+
+    .page-content .sell__headline-sub {
+    display: block;
+    margin: 0;
+    padding: 0;
+    font-family: "Arial", sans-serif;
+    text-transform: none;
+    font-size: 18px;
+  }
+
+  .page-content .sell__headline-image {
+    display: none;
+  }
+
+  .page-content .sell__headline-image.mobile {
+    display: block
+  }
+}
+
+@media screen and (max-width: 420px){
+
+  .page-content .sell__headline-text {
+    font-size: 28px;
+  }
+}
